@@ -1,4 +1,4 @@
-# TypeScript GraphSQL CRUD
+# TypeScript GraphQL CRUD
 
 Requires node 12 (`nvm use`).
 
