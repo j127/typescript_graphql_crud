@@ -15,12 +15,13 @@
         "pg": "^7.13.0",
         "prettier": "^2.1.2",
         "reflect-metadata": "^0.1.10",
-        "sqlite3": "^4.1.0",
+        "sqlite3": "^4.2.0",
         "type-graphql": "^0.17.5",
         "typeorm": "0.2.20"
     },
     "scripts": {
         "start": "nodemon --exec ts-node src/index.ts",
-        "build": "tsc"
+        "build": "tsc",
+        "format": "npx prettier \"**/*.{js,ts,jsx,tsx,json,html}\" --write"
     }
 }
